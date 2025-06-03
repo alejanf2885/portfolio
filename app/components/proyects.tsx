@@ -4,23 +4,23 @@ export default function Proyects() {
     const projects = [
         {
             title: "TITANAZO LUISMI",
-            description: "Proyecto freelance de desarrollo web para un entrenador personal y culturista profesional. La plataforma ofrece servicios personalizados de entrenamiento, planes de dieta, y seguimiento online, con un diseño enfocado en la usabilidad y la comunicación directa con el cliente para facilitar la transformación física y el logro de objetivos deportivos.",
+            description: "Freelance web development project for a personal trainer and professional bodybuilder. The platform offers personalized training services, diet plans, and online tracking, with a design focused on usability and direct client communication to facilitate physical transformation and achievement of sports goals.",
             image: "/proyect1.png",
             technologies: ["React", "React Router", "Tailwind", "TypeScript"],
             githubUrl: "#",
             demoUrl: "https://www.titanazoibffpro-luismi.com/"
         },
         {
-            title: "Proyecto 2",
-            description: "Descripción detallada del proyecto y las tecnologías utilizadas en su desarrollo.",
+            title: "Project 2",
+            description: "Detailed description of the project and the technologies used in its development.",
             image: "/project2.jpg",
             technologies: ["Next.js", "Node.js", "MongoDB"],
             githubUrl: "#",
             demoUrl: "#"
         },
         {
-            title: "Proyecto 3",
-            description: "Descripción detallada del proyecto y las tecnologías utilizadas en su desarrollo.",
+            title: "Project 3",
+            description: "Detailed description of the project and the technologies used in its development.",
             image: "/project3.jpg",
             technologies: ["React", "Firebase", "Tailwind"],
             githubUrl: "#",
@@ -49,7 +49,7 @@ export default function Proyects() {
             </div>
 
             {/* Grid de proyectos */}
-            <div className="container mx-auto max-w-6xl px-4 sm:px-6 py-12 sm:py-16 md:py-24">
+            <div className="container mx-auto  px-4 sm:px-6 py-12 sm:py-16 md:py-24">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 auto-rows-fr">
                     {projects.map((project, index) => (
                         <div
