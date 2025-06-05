@@ -7,7 +7,7 @@ export default function Proyects() {
             description: "Freelance web development project for a personal trainer and professional bodybuilder. The platform offers personalized training services, diet plans, and online tracking, with a design focused on usability and direct client communication to facilitate physical transformation and achievement of sports goals.",
             image: "/proyect1.png",
             technologies: ["React", "React Router", "Tailwind", "TypeScript"],
-            githubUrl: "#",
+            githubUrl: "",
             demoUrl: "https://www.titanazoibffpro-luismi.com/"
         },
         {

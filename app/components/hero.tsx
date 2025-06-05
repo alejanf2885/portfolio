@@ -26,7 +26,7 @@ export default function Hero() {
             </div>
 
             {/* Cuadro de código con estilo neón */}
-            <div className="w-full md:w-1/2 bg-gradient-to-br from-[#111827] to-[#1a1f35] border border-fuchsia-500/30 rounded-xl shadow-2xl p-4 md:p-6 font-mono text-xs md:text-sm w-full max-w-xl relative overflow-hidden backdrop-blur-sm">
+            <div className="w-full md:w-1/2 bg-gradient-to-br from-[#111827] to-[#1a1f35] border border-fuchsia-500/30 rounded-xl shadow-2xl p-4 md:p-6 font-mono text-xs md:text-sm  max-w-xl relative overflow-hidden backdrop-blur-sm">
                 <div className="flex items-center gap-2 mb-4">
                     <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-red-500 shadow-[0_0_8px_rgba(239,68,68,0.5)]"></div>
                     <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-yellow-500 shadow-[0_0_8px_rgba(234,179,8,0.5)]"></div>
